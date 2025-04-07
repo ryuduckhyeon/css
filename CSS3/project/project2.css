@@ -1,0 +1,13 @@
+@charset "UTF-8";
+div {
+    border: 1px solid skyblue;
+    .title{
+        color: blue;
+    }
+    li{
+        list-style: none;
+    }
+    span{
+        color: red;
+    }
+}
