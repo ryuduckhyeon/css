@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+    font-family: "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo", "AppleGothic", "돋움", Dotum, sans-serif;
+}
+h1{
+    text-align: center;
+}
+li{
+    color: blue;
+    list-style: square;
+}
