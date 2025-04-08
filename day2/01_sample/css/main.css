@@ -42,24 +42,26 @@ div {
             color: #8a9caa;
         }
 
-        p {
-            font-family: "돋움", Dotum, sans-serif;
-            font-size: 12px;
-            color: #333;
-            line-height: 18px;
-            text-align: justify;
-        }
+
 
 
     }
-}
 
-.s4 {
-    font-size: 9px;
-    color: #f8e4ff;
-    background: #9579df;
-    border: 1px solid #554282;
-    width: 43px;
-    height: 13px;
-    margin-top: 10px;
+    p {
+        font-family: "돋움", Dotum, sans-serif;
+        font-size: 12px;
+        color: #333;
+        line-height: 18px;
+        text-align: justify;
+    }
+
+    .s4 {
+        font-size: 9px;
+        color: #f8e4ff;
+        background: #9579df;
+        border: 1px solid #554282;
+        width: 43px;
+        height: 13px;
+        margin-top: 10px;
+    }
 }
