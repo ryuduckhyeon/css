@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 380px;
+    padding: 10px;
+    border: 2px solid #1d2c71;
+
+    #title {
+        font-family: "돋움", Dotum, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 14px;
+        margin-bottom: 18px;
+    }
+
+    .author {
+        font-size: 11px;
+        color: #ababab;
+    }
+
+    .price {
+        font-family: "돋움", Dotum, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 27px;
+
+        .s1 {
+            color: #e76d24;
+        }
+
+        .s2 {
+            color: #75a4d0;
+        }
+
+        .s3 {
+            color: #8a9caa;
+        }
+
+        p {
+            font-family: "돋움", Dotum, sans-serif;
+            font-size: 12px;
+            color: #333;
+            line-height: 18px;
+            text-align: justify;
+        }
+
+
+    }
+}
+
+.s4 {
+    font-size: 9px;
+    color: #f8e4ff;
+    background: #9579df;
+    border: 1px solid #554282;
+    width: 43px;
+    height: 13px;
+    margin-top: 10px;
+}
