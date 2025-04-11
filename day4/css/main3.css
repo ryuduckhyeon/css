@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* CSS Document */
+body {
+    font-family: "맑은고딕", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+    background-color: #ccc;
+    font-size: 24px;
+    text-align: center;
+    color: #727881;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 443px;
+    padding: 16px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+    line-height: 268px;
+}
+
+.header {
+    width: 443px;
+    height: 179px;
+    margin-bottom: 10px;
+    background: #ffdfdf;
+    border-radius: 10px;
+    line-height: 179px;
+}
+
+ul {
+    width: 443px;
+    height: 268px;
+}
+
+ul .aside {
+    width: 131px;
+    height: 268px;
+    margin-right: 10px;
+    background: #ffe1c3;
+    float: left;
+    border-radius: 10px;
+}
+
+ul .main {
+    width: 302px;
+    height: 268px;
+    background: #d9f8ff;
+    float: left;
+    border-radius: 10px;
+}
+
+.footer {
+    width: 443px;
+    height: 59px;
+    margin-top: 10px;
+    background: #e1f7de;
+    border-radius: 10px;
+    line-height: 59px;
+}
