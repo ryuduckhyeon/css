@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    width: 100%;
+    height: 600px;
+    background: url(../images/41b6164f-6543-45bc-8fb1-0bd7440014f2.jpeg) no-repeat center top;
+}
+.inner{
+    width: 1270px;
+    height: 600px;
+    margin: auto;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.title{
+    margin-left: 100px;
+}
+.title h2{
+    font-size: 36px;
+    color: #000;
+    font-weight: 900;
+}
+.title p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #404040;
+    margin-top: 24px;
+}
+ul{
+    width: 1270px;
+    height: 270px;
+    margin-top: 70px;
+}
+li{
+    list-style: none;
+    width: 230px;
+    height: 270px;
+    float: left;
+    margin-right: 30px;
+    padding: 50px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+h3{
+    margin-top: 93px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+}
+li p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 20px;
+}
+.last{
+    margin-right: 0;
+    background: #fff url(../images/d125b077-56d1-473e-9f90-13bdd85566c9.png) no-repeat center 47px;
+}
+.first{
+    background: #fff url(../images/f0101734-85a4-47fc-99e9-f4298f265746.png) no-repeat center 40px;
+}
+.second{
+    background: #fff url(../images/e4f00886-c70f-4d32-9fe4-20aac9297ed3.png) no-repeat center 42px;
+}
+.third{
+    background: #fff url(../images/e1d72ad6-e69e-4ed6-a398-7bd28bc4df66.png) no-repeat center 45px;
+}
+.fourth{
+    background: #fff url(../images/8d8bbc3e-cf50-472c-9d2f-42fc571de92a.png) no-repeat center 43px;
+}
