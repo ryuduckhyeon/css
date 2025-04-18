@@ -103,7 +103,7 @@ li:hover a {
     text-align: left;
     /* 글자 들여쓰기 */
     text-indent: 20px;
-    background: url(../images/ico_sel_arr.gif) no-repeat right center;
+    background: url(../images/ico_sel_arr.gif) no-repeat 218px center;
 }
 
 .btn4 {
@@ -133,6 +133,9 @@ li:hover a {
     line-height: 56px;
     text-align: center;
 }
+.btn5:hover {
+    background: #0d42cc;
+}
 
 .bottom {
     background: #000;
@@ -148,4 +151,7 @@ li:hover a {
     line-height: 46px;
     font-size: 15px;
     background: url(../images/icon_arrow_top_16x16_w.svg) no-repeat 150px center;
+}
+.btn6:hover {
+    background: #303030;
 }
