@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    font-family: "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo", "AppleGothic", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    width: 791px;
+    margin: auto;
+    /* 자식이 모두 float이 되면 부모 높이는 0 */
+    /* 부모 높이를 유지하기 위해 clear: both를 사용한다. */
+    /* 부모 높이를 유지하기 위해 overflow: hidden을 사용한다. */
+    overflow: hidden;
+}
+li{
+    float: left;
+    width: 191px;
+    height: 62px;
+    border: 2px solid #242424;
+    padding-top: 15px;
+    padding-right: 15px;
+    margin-right: 9px;
+    /* padding이나 border 줄때 크기 영향 안줄때 */
+    box-sizing: border-box;
+    /* border-box는 padding과 border를 포함한 크기 계산을 한다. */
+}
+.fourth,.eighth{
+    margin-right: 0;
+}
+.first,.second,.third,.fourth{
+margin-bottom: 9px;
+}
+a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    letter-spacing: -1px;
+}
+p{
+    font-size: 13px;
+    color: #595959;
+}
+h4{
+    font-size: 13px;
+    color: #000;
+    font-weight: 700;
+}
+.first{
+    background: url(../images/bg_banner_new.png) no-repeat 10px 12px;
+}
+.second{
+    background: url(../images/bg_banner_new.png) no-repeat 10px 12px;
+    background-position-y: -53px;
+}
+.third{
+    background: url(../images/bg_banner_new.png) no-repeat 10px 12px;
+    background-position-y: -119px;
+}
+.fourth{
+    background: url(../images/bg_banner_new.png) no-repeat 10px 12px;
+    background-position-y: -184px;
+}
+.fifth{
+    background: url(../images/bg_banner_new.png) no-repeat 10px 12px;
+    background-position-y: -247px;
+}
+.sixth{
+    background: url(../images/bg_banner_new.png) no-repeat 10px 12px;
+    background-position-y: -310px;
+}
+.seventh{
+    background: url(../images/bg_banner_new.png) no-repeat 10px 12px;
+    background-position-y: -372px;
+}
+.eighth{
+    background: url(../images/bg_banner_new.png) no-repeat 10px 12px;
+    background-position-y: -436px;
+}
