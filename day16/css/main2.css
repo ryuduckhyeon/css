@@ -1,0 +1,90 @@
+@charset "utf-8";
+.wrap{
+    width: 1000px;
+    height: 1000px;
+    background: cyan;
+    margin: auto;
+    position: relative;
+}
+.wrap div{
+    width: 200px;
+    height: 200px;
+}
+.wrap div:first-child{
+    background: purple;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+div:nth-child(2){
+    background: greenyellow;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+div:nth-child(3){
+    background: brown;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+div:nth-child(4){
+    background: black;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+div:nth-child(5){
+    background: purple;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+div:nth-child(6){
+    background: greenyellow;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+div:nth-child(7){
+    background: brown;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+}
+div:nth-child(8){
+    background: purple;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+div:nth-child(9){
+    background: greenyellow;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+div:nth-child(10){
+    background: brown;
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+}
+div:nth-child(11){
+    background: purple;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+div:nth-child(12){
+    background: greenyellow;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+div:nth-child(13){
+    background: brown;
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
+}
