@@ -60,6 +60,22 @@ button{
     width: 610px;
     gap: 10px;
 }
+
+/* li사이마다 경계선 삽입하는 태그 */
+.footer .inner .wrap ul li:after{
+    content: "";
+    width: 1px;
+    height: 10px;
+    background: #b7b6b4;
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    margin-top: -5px;
+}
+.footer .inner .wrap ul li{
+    position: relative;
+}
+
 .footer .inner .wrap ul li a{
     font-size: 12px;
     color: #5e5a57;
