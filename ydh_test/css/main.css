@@ -3,6 +3,10 @@
 /* Global Styles */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Roboto', 'Noto Sans KR' sans-serif;
+    background-color: #fff;
+}
 *{
     margin: 0;
     padding: 0;
@@ -18,10 +22,6 @@ button{
     border: none;
     background: none;
     cursor: pointer;
-}
-body{
-    font-family: 'ROBOTO', 'Noto Sans Korean' sans-serif;
-    background-color: #fff;
 }
 .header{
     width: 100%;
