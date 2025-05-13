@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Document */
+body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Set the css */
+ul {
+    width: 1400px;
+    height: 610px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    width: 380px;
+    height: 100%;
+
+}
+
+ul li:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+ul li a h3 {
+    display: block;
+    width: 380px;
+    height: 90px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #3d393d;
+}
+
+ul li a .img {
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+}
+
+ul li a .img img {
+    width: 100%;
+}
