@@ -65,7 +65,7 @@ li{
     left: 0;
     top: 0;
     /* 애니메이션 실행 약식 */
-    animation: ani_a2 4s forwards infinite ease-in-out;
+    animation: ani_a2 4s forwards ease-in-out;
 }
 @keyframes ani_a2{
     0%{
