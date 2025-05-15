@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+/* content */
+.w1{
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 200px;
+    border: 1px solid blue;
+    margin: auto;
+    position: relative;
+}
+.w1 .a1{
+    width: 100px;
+    height: 100px;
+    background: pink;
+    position: absolute;
+    /* 애니메이션 실행 */
+    animation: ani_a1 4s ease-in-out forwards infinite;
+}
+@keyframes ani_a1 {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        left: 900px;
+        top: 0;
+    }
+    50%{
+        left: 900px;
+        top: 200px;
+    }
+    75%{
+        left: 0;
+        top: 200px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+.w2{
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 200px;
+    border: 1px solid orangered;
+    margin: auto;
+    position: relative;
+    margin-top: 200px;
+}
+.w2 .a2{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* 애니메이션 실행 약식 */
+    animation: ani_a2 4s forwards infinite ease-in-out;
+}
+@keyframes ani_a2{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    20%{
+        left: 900px;
+        top: 0;
+    }
+    40%{
+        left: 900px;
+        top: 200px;
+    }
+    60%{
+        left: 0;
+        top: 200px;
+    }
+    80%{
+        left: 0;
+        top: 0;
+    }
+    100%{
+        left: -100px;
+        top: 0;
+    }
+}
