@@ -1,0 +1,70 @@
+@charset "utf-8";
+body{
+    font-family: "맑은 고딕", "Malgun Gothic", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.inner{
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    padding: 0 45px;
+    background: #f56074 url(../images/nav2.png) no-repeat 90% center;
+}
+.inner ul.gnb{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.inner ul.gnb li{
+
+}
+.inner ul.gnb li a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+.content{
+    width: 800px;
+    margin: 30px auto 15px;
+    font-size: 15px;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 1px dotted #333;
+}
+.content h3, .content h4, .content p{
+    margin-bottom: 20px;
+    letter-spacing: -0.8px;
+}
+.content p{
+    line-height: 22.5px;
+}
+.dog{
+    width: 800px;
+    height: 172px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+}
+.dog li{
+    width: 180px;
+    height: 140px;
+}
+.dog li img{
+    width: 100%;
+    height: 100%;
+}
