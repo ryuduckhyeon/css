@@ -106,8 +106,8 @@ a {
 /* 상품목록 */
 .new ul.list {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 16px;
 }
 
 .new ul.list li {
