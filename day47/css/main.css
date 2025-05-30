@@ -1,0 +1,73 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: 'Pretendard-Regular', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+:root{
+    --blue: #008000;
+    --whi: #fff;
+    --bgc: #d9d9d9;
+    --padd: 20px;
+    --fsize: 16px;
+    --gap: 15px;
+}
+section{
+    width: 100%;
+    padding: 35px 0;
+    background: var(--bgc);
+    text-align: center;
+}
+section h2{
+    text-align: center;
+    color: var(--blue);
+}
+section ul{
+    width: 780px;
+    margin: 35px auto;
+    display: flex;
+    gap: 15px;
+}
+section ul li{
+    width: 144px;
+    border: 1px solid var(--blue);
+    text-align: center;
+    background: var(--whi);
+}
+section ul li a{
+    display: block;
+    width: 100%;
+    padding: var(--padd) 0;
+    color: var(--blue);
+}
+section button{
+    width: 105px;
+    height: 35px;
+    background: var(--blue);
+    color: var(--whi);
+    border-radius: 999px;
+}
+.section h2{
+    color: var(--blue);
+    
+}
