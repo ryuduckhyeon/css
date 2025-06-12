@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* Reset CSS */
+body{
+    font-family: "맑은 고딕", "Malgun Gothic", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+img{
+    display: block;
+    border: none;
+}
